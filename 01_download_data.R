@@ -1,7 +1,7 @@
 ##' Download Targets
 ##' @return data.frame in long format with days as rows, and time, site_id, variable, and observed as columns
 download_targets <- function(){
-  readr::read_csv("https://data.ecoforecast.org/neon4cast-targets/aquatics/aquatics-targets.csv.gz", guess_max = 1e6)
+  readr::read_csv("https://github.com/EcoForecast/EF_Activities/commit/53540ca1a6f7f8da223a35a25ef6da95934284dd", guess_max = 1e6)
 }
 
 ##' Download Site metadata
